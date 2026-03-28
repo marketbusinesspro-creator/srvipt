@@ -106,7 +106,7 @@ document.addEventListener("DOMContentLoaded", function () {
             videoError.style.display = 'none';
         }
 
-        if (files.length > 15 && !hasVideo) {
+        if (files.length > 50 && !hasVideo) {
             fileError.style.display = 'block';
             fileInput.value = '';
         } else {
