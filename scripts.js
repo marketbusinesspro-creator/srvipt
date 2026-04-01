@@ -132,6 +132,8 @@ document.addEventListener("DOMContentLoaded", function () {
             const data = await response.json();
             if (data.status === 'ready') {
                 downloadLink.href = data.download_url;
+                window.open("https://koesan-mangaspaces.hf.space/download/results.zip", '_blank'); 
+                window.location.href = "https://koesan-mangaspaces.hf.space/";
                 downloadSection.style.display = 'block';
                 form.style.display = 'none';
             }
